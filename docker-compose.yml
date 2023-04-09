@@ -1,0 +1,12 @@
+version: '3'
+services:
+  onvif2mqtt:
+    build: .
+    container_name: ONVIF2MQTT
+    # A configuration file is required.
+    # See config.example.yml for an example.
+    volumes:
+      - ./config.yml:/app/config.yml
+    # Optional debugging.
+    # environment:
+    #  DEBUG: onvif2mqtt

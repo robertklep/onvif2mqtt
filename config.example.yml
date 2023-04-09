@@ -1,0 +1,20 @@
+# Example configuration file for ONVIF2MQTT
+# https://github.com/robertklep/onvif2mqtt
+#
+# Lines that are commented out are optional and their default value is shown.
+
+# MQTT broker configuration
+mqtt:
+  hostname: 192.168.23.2
+  # port: 1883
+  # base_topic: onvif2mqtt
+  # username:
+  # password:
+
+# Camera configuration
+cameras:
+  driveway:
+    # For all options, see https://agsh.github.io/onvif/Cam_.html
+    hostname: 192.168.1.4
+  backyard:
+    hostname: 192.168.1.5

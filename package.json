@@ -1,0 +1,14 @@
+{
+  "name": "onvif2mqtt",
+  "version": "1.0.0",
+  "description": "Subscribe to ONVIF camera events and publish them over MQTT",
+  "main": "index.js",
+  "dependencies": {
+    "async-mqtt": "^2.6.3",
+    "debug": "^4.3.4",
+    "onvif": "^0.6.8",
+    "yaml": "^2.2.1"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT"
+}
