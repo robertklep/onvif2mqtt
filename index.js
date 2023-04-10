@@ -59,7 +59,7 @@ void async function() {
         source:    name,
         type:      type,
         state:     state,
-        timestamp: Date.now(),
+        timestamp: new Date()
       }));
       mqtt.publish(join(prefix, 'event', type), JSON.stringify(state));
     }).on('disconnect', () => {
